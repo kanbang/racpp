@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{b048e650-26ba-4f18-9320-5a264df09b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="restclient">
+      <UniqueIdentifier>{e2c618fa-8182-4b36-af91-248bd1dfd8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="md5">
+      <UniqueIdentifier>{4806865b-e98c-4afc-a31d-3812256530c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UmsAgent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UmsConstants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TagController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AssembJSONObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Poster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkUitlity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mission.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PostObjEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PostObjTag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HandlerThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SCell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LatitudeAndLongitude.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="json\jsonxx.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="restclient\meta.h">
+      <Filter>restclient</Filter>
+    </ClInclude>
+    <ClInclude Include="restclient\restclient.h">
+      <Filter>restclient</Filter>
+    </ClInclude>
+    <ClInclude Include="md5\md5lib.h">
+      <Filter>md5</Filter>
+    </ClInclude>
+    <ClInclude Include="racppExports.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="racpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UmsAgent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UmsConstants.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TagController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AssembJSONObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Poster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkUitlity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mission.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PostObjEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PostObjTag.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HandlerThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SCell.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LatitudeAndLongitude.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="json\jsonxx.cc">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\jsonxx_test.cc">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="restclient\restclient.cpp">
+      <Filter>restclient</Filter>
+    </ClCompile>
+    <ClCompile Include="md5\md5lib.cpp">
+      <Filter>md5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="racpp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
